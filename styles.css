@@ -33,7 +33,8 @@ h1 {
 
 h2 {
   color: #2b7cff;
-  padding-top: 100px;
+  padding-top: 150px;
+  padding-bottom: 10px;
   font-size: 2em;
   text-align: center;
 }
@@ -154,6 +155,9 @@ p {
   text-align: center;
 }
 
+.resume {
+  color: hotpink;
+}
 .icon {
   text-align: center;
 }
