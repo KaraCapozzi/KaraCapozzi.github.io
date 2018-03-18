@@ -187,6 +187,15 @@ p {
 }
 .icon {
   text-align: center;
+  color: gold;
+}
+
+.linkedin {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: gold;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 footer {
