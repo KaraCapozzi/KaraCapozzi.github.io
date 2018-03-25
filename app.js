@@ -11,3 +11,11 @@
 //  var myPic = document.createElement('img');
 //  myPic.src = 'http://paidandpretty.com/wp-content/uploads/2017/03/Karas-Head.jpg';
 //  document.body.appendChild(myPic);
+
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
