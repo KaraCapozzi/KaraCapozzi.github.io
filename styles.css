@@ -18,10 +18,8 @@ header {
 
 .logo {
   max-width: 150px;
-  padding: 5px 5px;
-  z-index: 900;
   float: left;
-  display: inline-block;
+
 }
 
 .clear {
@@ -74,7 +72,8 @@ li a:hover::before {
 
 li {
   display: inline-block;
-  margin-left: 150px;
+  margin-left: 10px;
+  margin-right: 50px;
   position: relative;
 }
 
@@ -82,7 +81,7 @@ a {
   text-decoration: none;
   color: black;
   font-family: 'Montserrat', sans-serif;
-  padding-right: 10px;
+  padding-right: 1px;
 }
 
 .intro {
